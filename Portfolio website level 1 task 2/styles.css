@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+                /***************** header ******************/
+
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left:100px;
+    color: teal;
+}
+
+header{
+    display: flex;
+    margin-top: 15px;
+}
+
+.nav ul{
+    display:flex;  
+}
+
+.nav ul li {
+    margin-inline:20px;
+    padding-inline:10px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.nav {
+    margin-left:210px;
+}
+
+.search-button{
+    position: absolute;
+    right:150px;
+}
+
+.search-button button {
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: 500;
+}
+
+input {
+    padding:5px;
+    background-color: white;
+}
+
+.button{
+    padding:10px;
+    background:teal;
+    color:white;
+    font-weight: 600;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-style: none;
+    
+}
+
+
+/*********************************** About Section **************************/
+
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.button {
+    margin-left:400px;
+    margin-top: 20px;
+}
+
+.intro{
+    margin-top:140px;
+    margin-right: 150px;
+    margin-left:-100px;
+}
+
+.image-box {
+    margin-top:120px;   
+    margin-bottom: 50px;
+}
+
+
+.img {
+    border-radius:50px;
+    height: 300px;
+    width: 300px;
+    display:block; 
+    margin-left: 300px;
+}
+
+span {
+    color:rgb(14, 193, 193);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1 .web-text {
+    font-size:40px;
+    background-color: rgba(208, 205, 205, 0.427);
+    padding-inline:10px;
+}
+
+.text {
+    margin-top:20px;
+    font-size:20px;
+}
+
+.buttons button{
+    margin-top: 20px;
+    padding: 8px;
+    background-color: teal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 5px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/************************  skills section *******************************/
+
+
+.about {
+    margin-top: 80px;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+}
+
+
+.heading {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.para-one p{
+    font-weight: 530;
+    font-size: 20px;
+    /* color: rgb(91, 89, 89); */
+    margin-top: 15px;
+    color: #1D2345;
+    width: 700px;
+    font-weight: 550;
+    text-align: justify;
+}
+
+.para-one {
+    margin-top: 130px;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.connect .box img{
+    height: 80px;
+    width: 80px;
+}
+
+.box a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+}
+
+.connect .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.break {
+    border : 2px solid black;
+}
+
+
+
+
+/*********************************** skills section ********************************/
+
+.skills {
+    margin-top: 80px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.skills-list {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+
+.skill-1 {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+
+
+/************************************* project section ********************************/
+
+.card {
+    /* height: 300px; */
+    width: 500px;
+    border: 2px solid black;
+    margin-bottom: 80px;
+}
+
+.card h2 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card  p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    margin-inline: 5px;
+}
+
+.project-sec {
+    margin-top: 80px;
+}
+
+.project-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-sec h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+
+
+/************************************** footer start  *********************************/
+
+.footer {
+    padding: 10px 0px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size:18px;
+    padding-right: 470px;
+    
+}
+
+.icon i{
+    padding-inline:10px;
+}
+
+#footer-content {
+    margin-bottom: 20px;
+}
