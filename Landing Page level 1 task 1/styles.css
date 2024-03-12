@@ -187,6 +187,17 @@ h1 {
     font-size: 18px;
 }
 
+.sign-up-btn {
+    padding: 5px;
+    background-color: orangered;
+    color:white;
+    border-radius: 5px;
+}
+
+.sign-up-btn:hover {
+    background-color: green;
+}
+
 .last-line {
     /* color:white; */
     color: balck;
